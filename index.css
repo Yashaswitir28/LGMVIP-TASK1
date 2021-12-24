@@ -1,5 +1,4 @@
-
-html{
+html {
   overflow-x: hidden;
 }
 /* Common */
@@ -241,7 +240,7 @@ body {
   margin: 1rem 0 0 0;
   line-height: 2rem;
 }
-.section3ItemSub:hover{
+.section3ItemSub:hover {
   background-color: yellow;
 }
 .section3ItemButton {
@@ -367,7 +366,7 @@ body {
 }
 
 .section5Button {
-  margin:0;
+  margin: 0;
   width: 4vh;
   height: 8vh;
   font-size: 1.5rem;
@@ -414,29 +413,29 @@ body {
   border-radius: 12vw;
 }
 
-.section6Item .img_box{
-  margin-top:25px;
+.section6Item .img_box {
+  margin-top: 25px;
 }
 
-.section6Item .img_box{
+.section6Item .img_box {
   opacity: 1;
   display: block;
-  position:relative;
+  position: relative;
 }
 
-.img_box:after{
-  content: '';
+.img_box:after {
+  content: "";
   opacity: 0;
-  background-color: rgba(128, 0, 128, 0.734); 
+  background-color: rgba(128, 0, 128, 0.734);
   position: absolute;
   border-radius: 50%;
-  right:0;
+  right: 0;
   left: 0;
-  top:0;
-  bottom:0;
+  top: 0;
+  bottom: 0;
 }
 
-.img_box ul{
+.img_box ul {
   margin-bottom: 40%;
   position: absolute;
   z-index: 1;
@@ -447,23 +446,23 @@ body {
   opacity: 0;
 }
 
-.img_box ul li{
+.img_box ul li {
   width: 70px;
   height: 70px;
-  margin:10px;
+  margin: 10px;
   padding: 7px;
   display: inline-block;
 }
 
-.img_box a{
+.img_box a {
   color: #fff;
 }
 
-.img_box:hover:after{
+.img_box:hover:after {
   opacity: 1;
 }
 
-.img_box:hover ul{
+.img_box:hover ul {
   opacity: 1;
 }
 
@@ -500,11 +499,11 @@ body {
   overflow: scroll;
 }
 
-.section7Container{
+.section7Container {
   overflow-y: hidden;
 }
 
-.section7Container{
+.section7Container {
   scrollbar-gutter: auto;
 }
 .section7Item {
@@ -518,6 +517,10 @@ body {
   width: 100vw;
   height: 50vh;
   position: relative;
+  background-image: url("./assests/banner.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
 .section8Title {
   font-size: 4rem;
@@ -525,19 +528,11 @@ body {
   text-align: center;
   color: white;
 }
-
 .section8Container {
   width: 50vw;
   height: 10vh;
   margin: 0 auto;
   display: flex;
-}
-.section8Main {
-  position: absolute;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  z-index: -10;
 }
 .section8Input {
   width: 80%;
@@ -547,7 +542,6 @@ body {
   padding: 0 2rem;
   background-color: white;
 }
-
 .section8Button {
   width: 20%;
   height: 80%;
@@ -1140,6 +1134,10 @@ body {
     height: auto;
     padding: 0 0 5vh 0;
     position: relative;
+    background-image: url("./assests/banner.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
   }
   .section8Title {
     font-size: 4rem;
